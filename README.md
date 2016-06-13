@@ -2,7 +2,7 @@
 
 ![VinceLombardi](images/vince_lombardi.png)
 
-> Perfection is not attainable, but if we chase perfection we can catch excellence. 
+> Perfection is not attainable, but if we chase perfection we can catch excellence. ~[Vince Lombardi](https://en.wikipedia.org/wiki/Vince_Lombardi)
 
 
 ## Learning Objectives - The student should be able to..
