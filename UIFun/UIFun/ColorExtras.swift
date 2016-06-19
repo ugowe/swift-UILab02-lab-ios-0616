@@ -8,6 +8,20 @@
 
 import UIKit
 
+extension UIColor {
+    var name: String {
+        switch self {
+        case UIColor.redColor(): return "Red"
+        case UIColor.blueColor(): return "Blue"
+        case UIColor.yellowColor(): return "Yellow"
+        case UIColor.purpleColor(): return "Purple"
+        case UIColor.orangeColor(): return "Orange"
+        case UIColor.greenColor(): return "Green"
+        default: assert(false, "Invalid paint color: \(self)")
+        }
+    }
+}
+
 extension UIView {
     var paintColor: UIColor {
         get {
@@ -20,15 +34,7 @@ extension UIView {
 
     var paintColorName: String {
         get {
-            switch paintColor {
-            case UIColor.redColor(): return "Red"
-            case UIColor.blueColor(): return "Blue"
-            case UIColor.yellowColor(): return "Yellow"
-            case UIColor.purpleColor(): return "Purple"
-            case UIColor.orangeColor(): return "Orange"
-            case UIColor.greenColor(): return "Green"
-            default: assert(false, "Invalid paint color: \(paintColor)")
-            }
+            return paintColor.name
         }
         set {
             switch newValue {
@@ -40,6 +46,17 @@ extension UIView {
             case "green": paintColor = UIColor.greenColor()
             default: assert(false, "Invalid paint color: \(newValue)")
             }
+        }
+    }
+}
+
+extension UISegmentedControl {
+    var color: UIColor {
+        switch selectedSegmentIndex {
+        case 0: return UIColor.redColor()
+        case 1: return UIColor.yellowColor()
+        case 2: return UIColor.blueColor()
+        default: assert(false, "Invalid index: \(selectedSegmentIndex)")
         }
     }
 }
