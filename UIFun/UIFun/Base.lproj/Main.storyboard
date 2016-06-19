@@ -25,9 +25,6 @@
                                     <segment title="Yellow"/>
                                     <segment title="Blue"/>
                                 </segments>
-                                <connections>
-                                    <action selector="colorSelected:" destination="BYZ-38-t0r" eventType="valueChanged" id="z4f-CE-qW6"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="t4z-7c-cC2">
                                 <rect key="frame" x="80" y="405" width="160" height="29"/>
@@ -37,18 +34,10 @@
                                     <segment title="Yellow"/>
                                     <segment title="Blue"/>
                                 </segments>
-                                <connections>
-                                    <action selector="colorSelected:" destination="BYZ-38-t0r" eventType="valueChanged" id="LQG-UI-KUw"/>
-                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="firstColor" destination="t4z-7c-cC2" id="7Ts-BB-8oG"/>
-                        <outlet property="paintBucket" destination="nF5-NX-8kc" id="yki-Fh-hDl"/>
-                        <outlet property="secondColor" destination="v0K-0W-ih3" id="plv-H3-KfV"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
