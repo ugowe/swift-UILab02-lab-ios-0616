@@ -12,6 +12,12 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PaintBucket.png" id="nF5-NX-8kc">
+                                <rect key="frame" x="34" y="20" width="253" height="340"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -20,4 +26,7 @@
             <point key="canvasLocation" x="149.33333333333334" y="319.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PaintBucket.png" width="758" height="1019"/>
+    </resources>
 </document>
