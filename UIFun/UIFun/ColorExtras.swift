@@ -20,46 +20,6 @@ extension UIColor {
         default: assert(false, "Invalid paint color: \(self)")
         }
     }
-
-    func mixColor(with color: UIColor) -> UIColor {
-        switch self {
-        case UIColor.redColor():
-            switch color {
-            case UIColor.redColor():
-                return UIColor.redColor()
-            case UIColor.yellowColor():
-                return UIColor.orangeColor()
-            case UIColor.blueColor():
-                return UIColor.purpleColor()
-            default:
-                assert(false, "Invalid second color: \(color.name)")
-            }
-        case UIColor.yellowColor():
-            switch color {
-            case UIColor.redColor():
-                return UIColor.orangeColor()
-            case UIColor.yellowColor():
-                return UIColor.yellowColor()
-            case UIColor.blueColor():
-                return UIColor.greenColor()
-            default:
-                assert(false, "Invalid second color: \(color.name)")
-            }
-        case UIColor.blueColor():
-            switch color {
-            case UIColor.redColor():
-                return UIColor.purpleColor()
-            case UIColor.yellowColor():
-                return UIColor.greenColor()
-            case UIColor.blueColor():
-                return UIColor.blueColor()
-            default:
-                assert(false, "Invalid second color: \(color.name)")
-            }
-        default:
-            assert(false, "Invalid first color: \(name)")
-        }
-    }
 }
 
 extension UIView {
