@@ -9,9 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var paintBucket: UIView!
-    @IBOutlet weak var firstColor: UISegmentedControl!
-    @IBOutlet weak var secondColor: UISegmentedControl!
+    // TODO: Set up IB outlets
 
     override func viewDidLoad() {
         super.viewDidLoad()
