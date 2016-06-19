@@ -1,4 +1,4 @@
-# UILab Fun 02
+# UI Lab: Painting By Numbers
 
 ![VinceLombardi](images/vince_lombardi.png)
 
