@@ -22,8 +22,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func colorSelected(sender: UISegmentedControl) {
-        print("First color: \(firstColor.color.name)")
-        print("Second color: \(secondColor.color.name)")
         // TODO: Mix each selected color and set the paint color to the mixed color
     }
 }
