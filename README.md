@@ -104,6 +104,6 @@ A few pieces of code have been provided for you to make this lab a bit easier.
 4. You can set the color of a view, such as the paint bucket view, with a string using `paintColorName`. For example, if your paint bucket's IB outlet is named `paintBucket`, you can use `paintBucket.paintColorName = "red"` to set the paint color to red.
 5. You can also get the current paint color name by calling `paintBucket.paintColorName` (if `paintBucket` is your IB outlet to the paint bucket).
 
-You should be able to combine all these hints, along with the existing code, to complete this lab. Good luck!
+You should be able to combine all these hints, along with the existing code, to complete this lab. Good luck! Don't forget to build and run your app _often_. Don't try to complete the lab all in one go! If you make a mistake or introduce a bug, it will be much easier to track down the source of the problem if you are frequently testing your app. Tackle the problem in small chunks, and feel free to add your own `print()` statements along the way to see what your code is doing.
 
 <a href='https://learn.co/lessons/UILab02' data-visibility='hidden'>View this lesson on Learn.co</a>
