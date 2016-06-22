@@ -88,10 +88,11 @@ Time to get started!
 Here is what you need to accomplish to get this application working. Before you start, though, make sure to read through this entire lab, as there are some helpful hints and notes at the end that should make your task a lot easier.
 
 1. Create an _IB outlet_ to the paint bucket view. (This outlet should be of type `UIView`.) Connect it to the paint bucket.
-2. Create and connect an _IB outlet_ to the first segmented control. This should be of type `UISegmentedControl`.
-3. Create and connect another _IB outlet_ to the second segmented control. This should also be of type `UISegmentedControl`.
-4. Connect _both_ segmented controls to the `colorSelected(_:)` _IB action_ already declared in `ViewController.swift`. You should notice something interesting here: More than one UI element can have the _same_ action. That is, you can connect _two_ segmented controls to `colorSelected(_:)`. You haven't seen this happen in previous labs, but this is totally fine, and, in fact, frequently happens in iOS interfaces.
-5. `colorSelected(_:)` is called whenever the user presses one of the buttons in either segmented control. You should write some logic to get the color selected by _each_ control, "mix" them together to produce a new color, and then update the paint bucket to display the mixed color.
+2. Add the two segmented controls below the paint bucket view.
+3. Create and connect an _IB outlet_ to the first segmented control. This should be of type `UISegmentedControl`.
+4. Create and connect another _IB outlet_ to the second segmented control. This should also be of type `UISegmentedControl`.
+5. Connect _both_ segmented controls to the `colorSelected(_:)` _IB action_ already declared in `ViewController.swift`. You should notice something interesting here: More than one UI element can have the _same_ action. That is, you can connect _two_ segmented controls to `colorSelected(_:)`. You haven't seen this happen in previous labs, but this is totally fine, and, in fact, frequently happens in iOS interfaces.
+6. `colorSelected(_:)` is called whenever the user presses one of the buttons in either segmented control. You should write some logic to get the color selected by _each_ control, "mix" them together to produce a new color, and then update the paint bucket to display the mixed color.
 6. Your view controller has a method stubbed out named `mixColors(withFirst:second:)`. Write the logic in this method to mix both the `first` and `second` colors together. This method should return a `String` with the name of the new color ("red", "purple", "green", etc.). You'll have to drawn on your knowledge of if/else statements and switch statements from previous units to complete this method.
 
 ### Notes & Hints
