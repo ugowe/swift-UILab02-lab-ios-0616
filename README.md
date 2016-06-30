@@ -1,12 +1,10 @@
 # UI Lab: Painting By Numbers
 
-![VinceLombardi](images/vince_lombardi.png)
+![VinceLombardi](http://i.imgur.com/urMqQsf.png?1)
 
-> Perfection is not attainable, but if we chase perfection we can catch excellence. ~[Vince Lombardi](https://en.wikipedia.org/wiki/Vince_Lombardi)
+> Perfection is not attainable, but if we chase perfection we can catch excellence. -[Vince Lombardi](https://en.wikipedia.org/wiki/Vince_Lombardi)
 
-## Learning Objectives - The student should be able to...
 
-* Complete this lab
 
 ## Paints: A Primer
 
